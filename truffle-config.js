@@ -4,10 +4,10 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 module.exports = {
   networks: {
-    development: {
+    altcoinchain: {
       host: "127.0.0.1",
-      port: 7545,
-      network_id: "*" // Match any network id
+      port: 8545,
+      network_id: "2330" // Match any network id
     },
     mainnet:{
       provider: function() {
